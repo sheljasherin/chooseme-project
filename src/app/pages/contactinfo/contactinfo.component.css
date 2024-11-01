@@ -1,0 +1,48 @@
+.required-asterisk {
+  color: red;
+}
+.contact-form{
+  display:flex;
+ align-items:center;
+}
+.form-control{
+  background-color:white;
+}
+.col text-en{
+    color:grey
+}
+.buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.btn-save {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: 1px  #ece4e4;
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+.btn-savenext {
+  color:rgb(0, 0, 0);
+  background-color: rgb(0,128,255);
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+.text-start{
+  margin:0;
+  padding-top: 20px;
+}
+.disabled-input {
+  background-color: #e9ecef;
+  opacity: 0.7;
+
+}
+.disabled-button {
+  background-color: #e9ecef;
+  border: none;
+  opacity: 0.7;
+  cursor: not-allowed;
+  width: 50px;
+}
+

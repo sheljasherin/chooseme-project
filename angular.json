@@ -27,10 +27,13 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.min.css"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
+           "scripts": [
+               "src/assets/js/bootstrap.bundle.min.js"
+           ],
+            "server":"src/main.server.ts",
             "prerender": true,
             "ssr": {
               "entry": "server.ts"
